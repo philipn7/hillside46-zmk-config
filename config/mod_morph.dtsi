@@ -1,0 +1,45 @@
+#define MOD_MORPH_MASKED(NAME, KEY, MOD_KEY) \
+  mm_##NAME: mm_##NAME { \
+    compatible = "zmk,behavior-mod-morph"; \
+    label = #NAME; \
+    #binding-cells = <0>; \
+    bindings = <&kp KEY>, <&kp MOD_KEY>; \
+    mods = <(MOD_LSFT|MOD_RSFT)>; \
+    masked_mods = <(MOD_LSFT|MOD_RSFT)>; \
+  };
+
+#define MOD_MORPH(NAME, KEY, MOD_KEY) \
+  mm_##NAME: mm_##NAME { \
+    compatible = "zmk,behavior-mod-morph"; \
+    label = #NAME; \
+    #binding-cells = <0>; \
+    bindings = <&kp KEY>, <&kp MOD_KEY>; \
+    mods = <(MOD_LSFT|MOD_RSFT)>; \
+  };
+
+// Takes a MACRO as a parameter
+#define MOD_MORPH_MACRO(NAME, KEY, MACRO) \
+  mm_##NAME: mm_##NAME { \
+    compatible = "zmk,behavior-mod-morph"; \
+    label = #NAME; \
+    #binding-cells = <0>; \
+    bindings = <&kp KEY>, <&MACRO>; \
+    mods = <(MOD_LSFT)>; \
+  };
+
+/ {
+    behaviors {
+      // Parens an Brackets
+      MOD_MORPH_MASKED(brackets, LEFT_BRACKET, RIGHT_BRACKET)
+      MOD_MORPH(braces, LEFT_BRACE, RIGHT_BRACE)
+      MOD_MORPH(lt_gt, LESS_THAN, GREATER_THAN)
+      MOD_MORPH(parens, LEFT_PARENTHESIS, RIGHT_PARENTHESIS)
+      MOD_MORPH_MASKED(slashes, SLASH, BACKSLASH)
+
+      // Symbols
+      MOD_MORPH(minus_plus, MINUS, PLUS)
+      MOD_MORPH_MACRO(equals_arrow, EQUAL, macro_equal_arrow)
+    };
+};
+
+#undef MOD_MORPH
