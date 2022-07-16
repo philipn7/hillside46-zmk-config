@@ -13,6 +13,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp GREATER_THAN>
                 , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp SPACE>
                 ;
         };
 
