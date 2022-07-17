@@ -97,9 +97,9 @@
     nav_layer {
       label = "NAV";
       bindings = <
-        _______  _LSHFT_  _LEFT__  _DOWN__  _RIGHT_  _LGUI__                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
-        _______  _LCTRL_  os_GUI_  os_CTRL  os_SHFT  os_ALT_                                      _______  ___1___  ___2___  ___3___  _______  _______    
-        XXXXXXX  _LALT__  _HOME__  __UP___  __END__  _______  XXXXXXX                    XXXXXXX  _______  ___7___  ___8___  ___9___  _______  XXXXXXX    
+        _______  _LALT__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
+        _LGUI__  _LSHFT_  _LEFT__  _DOWN__  _RIGHT_  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
+        XXXXXXX  _LCTRL_  os_GUI_  os_CTRL  os_SHFT  os_ALT_  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
                                             XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX               
       >;
     };

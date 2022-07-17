@@ -34,8 +34,8 @@
 
         // Vertical Right
         COMBO(minus_plus, _MINUS_, 6 18, DEF, 100)
-        COMBO(backspace, &kp BACKSPACE, 8 20, DEF NAV NUM, 100)
-        COMBO(bksp_word, _BKSPW_, 7 19, DEF NAV NUM, 100)
+        COMBO(backspace, &kp BACKSPACE, 7 19, DEF NAV NUM, 100)
+        COMBO(bksp_word, _BKSPW_, 8 29, DEF NAV NUM, 100)
         COMBO(less_than, _LABRC_, 9 21, DEF, 100)
 
         // Symbols Left Hand
