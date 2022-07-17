@@ -76,7 +76,7 @@
         // One Shot NUM
         COMBO(combo_NUM, &sl 2, 14 15, DEF, 40)
 
-        COMBO(combo_z, &kp Z, 26 28, DEF, 100)
+        COMBO(combo_z, &kp Z, 16 28, DEF, 100)
         COMBO(combo_q, &kp Q, 19 33, DEF, 100)
 
         // RESET and BOOTLOADER
