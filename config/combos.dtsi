@@ -74,9 +74,16 @@
         COMBO(select_all, WIN_SELECT_ALL, 25 28, DEF, 40)
         COMBO(save, WIN_SAVE, 2 3, DEF, 50)
 
+        // VSCode - Delete Line 
+        COMBO(delLine, LC(LS(&kp K)), 1 4, DEF, 100)
+
+        // Caps Word
+        COMBO(CapsWord, _CAPWD_, 18 43, DEF, 100)
+
         // One Shot NUM
         COMBO(combo_NUM, &sl 2, 14 15, DEF, 40)
 
+        // Hands Down
         COMBO(combo_z, &kp Z, 16 28, DEF, 100)
         COMBO(combo_q, &kp Q, 19 33, DEF, 100)
 
