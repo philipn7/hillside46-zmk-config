@@ -75,7 +75,7 @@
         COMBO(save, WIN_SAVE, 2 3, DEF, 50)
 
         // VSCode - Delete Line 
-        COMBO(delLine, LC(LS(&kp K)), 1 4, DEF, 100)
+        COMBO(delLine, LC(LS(K)), 1 4, DEF, 100)
 
         // Caps Word
         COMBO(CapsWord, _CAPWD_, 18 43, DEF, 100)
