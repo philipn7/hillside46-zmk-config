@@ -23,7 +23,7 @@
 #define SPC_NAV &lt NAV SPACE
 #define SPC_SFT &bht LEFT_SHIFT SPACE
 #define _X_SYS_ &lt SYS X
-#define osSHCAP &td_shift_capsword
+#define osSHcan &td_shift_cancel
 
 /*
 // Home Row Mods
