@@ -24,6 +24,7 @@
 #define SPC_SFT &bht LEFT_SHIFT SPACE
 #define _X_SYS_ &lt SYS X
 #define osSHcan &td_shift_cancel
+#define _CANCL_ &kp F24
 
 /*
 // Home Row Mods
