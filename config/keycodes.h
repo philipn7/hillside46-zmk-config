@@ -128,8 +128,8 @@
 #define _CAPSL_ &kp CAPSLOCK
 #define _CAPWD_ &caps_word
 #define _ESCALT &mt LEFT_ALT ESCAPE
-#define _ESCSYM &lt SYM ESCAPE
-#define _SC_SYM &lt SYM SEMICOLON
+#define ESC_SYM &lt SYM ESCAPE
+#define SCN_SYM &lt SYM SEMICOLON
 
 
 #define _LSHFT_ &kp LEFT_SHIFT
