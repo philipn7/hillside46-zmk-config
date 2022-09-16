@@ -127,6 +127,7 @@
 #define _HOME__ &kp HOME
 #define _CAPSL_ &kp CAPSLOCK
 #define _CAPWD_ &caps_word
+#define _ESCALT &lt LEFT_ALT ESCAPE
 
 
 #define _LSHFT_ &kp LEFT_SHIFT
