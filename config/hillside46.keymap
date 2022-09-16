@@ -8,6 +8,7 @@
 #define NAV 1
 #define NUM 2
 #define SYS 3
+#define SYM 4
 
 #include "macros.dtsi"
 #include "combos.dtsi"
@@ -111,6 +112,16 @@
         _______  _______  _______  _______  _______  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______
         XXXXXXX  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX
                                             XXXXXXX  _______  _SPACE_  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
+      >;
+    };
+
+    sym_layer {
+      label = "SYM";
+      bindings = <
+        _______  _______  _______  _______  _______  _______                                      _______  _______  _______  _______  _______  _______
+        _______  _______  _GRAVE_  _DOLLR_  _HASH__  _______                                      _______  _EXCLM_  _QUEST_  _AMPRS_  _______  _______
+        XXXXXXX  _______  _TILDE_  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _CARET_  _PIPE__  _PERCT_  _______  XXXXXXX
+                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
       >;
     };
 

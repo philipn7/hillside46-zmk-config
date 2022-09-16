@@ -38,21 +38,21 @@
         COMBO(backspace_word, _BKSPW_, 8 20, DEF NAV NUM, 100)
         COMBO(less_than, _LABRC_, 9 21, DEF, 100)
 
-        // Symbols Left Hand
-        COMBO(GRAVE, &kp GRAVE, 13 40, DEF, 40)
-        COMBO(TILDE, &kp TILDE, 14 40, DEF, 40)
-        COMBO(DOLLAR, &kp DOLLAR, 15 40, DEF, 40)
-        COMBO(HASH, &kp HASH, 16 40, DEF, 40)
-        COMBO(ASTRK, &kp ASTRK, 27 40, DEF, 40)
-        COMBO(AT, &kp AT, 28 40, DEF, 40)
+        // // Symbols Left Hand
+        // COMBO(GRAVE, &kp GRAVE, 13 40, DEF, 40)
+        // COMBO(TILDE, &kp TILDE, 14 40, DEF, 40)
+        // COMBO(DOLLAR, &kp DOLLAR, 15 40, DEF, 40)
+        // COMBO(HASH, &kp HASH, 16 40, DEF, 40)
+        // COMBO(ASTRK, &kp ASTRK, 27 40, DEF, 40)
+        // COMBO(AT, &kp AT, 28 40, DEF, 40)
         
-        // Symbols Right Hand
-        COMBO(EXCL, &kp EXCL, 19 43, DEF, 40)
-        COMBO(QUESTION, &kp QUESTION, 20 43, DEF, 40)
-        COMBO(PERCENT, &kp PERCENT, 21 43, DEF, 40)
-        COMBO(AMPS, &kp AMPS, 22 43, DEF, 40)
-        COMBO(CARET, &kp CARET, 33 43, DEF, 40)
-        COMBO(PIPE, &kp PIPE, 34 43, DEF, 40)
+        // // Symbols Right Hand
+        // COMBO(EXCL, &kp EXCL, 19 43, DEF, 40)
+        // COMBO(QUESTION, &kp QUESTION, 20 43, DEF, 40)
+        // COMBO(PERCENT, &kp PERCENT, 21 43, DEF, 40)
+        // COMBO(AMPS, &kp AMPS, 22 43, DEF, 40)
+        // COMBO(CARET, &kp CARET, 33 43, DEF, 40)
+        // COMBO(PIPE, &kp PIPE, 34 43, DEF, 40)
         
 
 /*                          KEY POSITIONS
