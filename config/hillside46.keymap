@@ -100,8 +100,8 @@
       bindings = <
         _______  _LSHFT_  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
         _LGUI__  _LCTRL_  _LEFT__  _DOWN__  _RIGHT_  os_GUI_                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
-        XXXXXXX  _LALT__  os_ALT_  os_CTRL  os_SHFT  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
-                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  osqSHFT  os_CTRL  XXXXXXX               
+        XXXXXXX  _LALT__  os_ALT_  os_CTRL  os_SHFT  _______  XXXXXXX                    XXXXXXX  _CAPSL_  ___1___  ___2___  ___3___  _______  XXXXXXX    
+                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _CANCL_  _CAPWD_  XXXXXXX               
       >;
     };
 
@@ -121,7 +121,7 @@
         _BTCLR_  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
         _______  _______  _______  _______  _______  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  _______
         XXXXXXX  _______  _______  _______  _______  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
-                                            XXXXXXX  _CANCL_  _______  XXXXXXX  XXXXXXX  _CAPSL_  _______  XXXXXXX                  
+                                            XXXXXXX  _CANCL_  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
       >;
     };
 
