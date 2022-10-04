@@ -5,7 +5,7 @@
     #binding-cells = <0>; \
     bindings = <&kp KEY>, <&kp MOD_KEY>; \
     mods = <(MOD_LSFT|MOD_RSFT)>; \
-    masked_mods = <(MOD_LSFT|MOD_RSFT)>; \
+    masked-mods = <(MOD_LSFT|MOD_RSFT)>; \
   };
 
 #define MOD_MORPH(NAME, KEY, MOD_KEY) \

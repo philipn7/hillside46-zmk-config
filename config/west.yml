@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: urob
-      revision: masked-mods
+      revision: fix-mod-morph
       import: app/west.yml
   self:
     path: config
