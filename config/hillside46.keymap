@@ -128,8 +128,8 @@
     sym_layer {
       label = "SYM";
       bindings = <
-        _______  _______  _______  _______  _______  _______                                      _______  _______  _______  _______  _______  _______
-        _______  _TILDE_  _GRAVE_  _DOLLR_  _HASH__  _______                                      _______  _EXCLM_  _QUEST_  _AMPRS_  _PERCT_  _______
+        _______  _LBRAC_  _RBRAC_  _LCBRC_  _RCBRC_  _______                                      _PLUS__  _LPARN_  _RPARN_  _LABRC_  _RABRC_  _______
+        _______  _TILDE_  _GRAVE_  _DOLLR_  _HASH__  _______                                      _MINUS_  _EXCLM_  _QUEST_  _AMPRS_  _PERCT_  _______
         XXXXXXX  _______  _______  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _CARET_  _PIPE__  _______  _______  XXXXXXX
                                             XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
       >;
