@@ -89,9 +89,9 @@
       label = "DEF";
       bindings = <
         __TAB__  ___W___  ___F___  ___M___  ___P___  ___V___                                      _SLASH_  __DOT__  _BKSPC_  _SQUOT_  ___K___  _UNDRS_
-        ESC_SYM  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  SCN_SYM
+        ESC_CTL  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  SCN_SYM
         XXXXXXX  _X_SYS_  ___C___  ___L___  ___D___  ___G___  XXXXXXX                    XXXXXXX  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  XXXXXXX
-                                            XXXXXXX  os_CTRL  SPC_NAV  XXXXXXX  XXXXXXX  osqSHFT  os_CTRL  XXXXXXX
+                                            XXXXXXX  __SYM__  SPC_NAV  XXXXXXX  XXXXXXX  osqSHFT  os_CTRL  XXXXXXX
       >;
     };
 
@@ -129,8 +129,8 @@
       label = "SYM";
       bindings = <
         _______  _______  _______  _______  _______  _______                                      _______  _______  _______  _______  _______  _______
-        _______  _______  _GRAVE_  _DOLLR_  _HASH__  _______                                      _______  _EXCLM_  _QUEST_  _AMPRS_  _______  _______
-        XXXXXXX  _______  _TILDE_  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _CARET_  _PIPE__  _PERCT_  _______  XXXXXXX
+        _______  _TILDE_  _GRAVE_  _DOLLR_  _HASH__  _______                                      _______  _EXCLM_  _QUEST_  _AMPRS_  _PERCT_  _______
+        XXXXXXX  _______  _______  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _CARET_  _PIPE__  _______  _______  XXXXXXX
                                             XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
       >;
     };

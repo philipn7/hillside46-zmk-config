@@ -25,6 +25,14 @@
 #define _X_SYS_ &lt SYS X
 #define osSHcan &td_shift_cancel
 #define _CANCL_ &kp F24
+#define __SYM__ &sl SYM 
+
+#define _CAPSL_ &kp CAPSLOCK
+#define _CAPWD_ &caps_word
+#define _ESCALT &mt LEFT_ALT ESCAPE
+#define ESC_SYM &lt SYM ESCAPE
+#define ESC_CTL &mt LEFT_CONTROL ESCAPE
+#define SCN_SYM &lt SYM SEMICOLON
 
 /*
 // Home Row Mods
@@ -125,12 +133,6 @@
 #define __ESC__ &kp ESCAPE
 #define __END__ &kp END
 #define _HOME__ &kp HOME
-#define _CAPSL_ &kp CAPSLOCK
-#define _CAPWD_ &caps_word
-#define _ESCALT &mt LEFT_ALT ESCAPE
-#define ESC_SYM &lt SYM ESCAPE
-#define SCN_SYM &lt SYM SEMICOLON
-
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
