@@ -25,7 +25,7 @@
         COMBO(space_osshift, &macro_space_osshift, 40 43, DEF, 100)
 
         // Vertical Left Hand
-        COMBO(left_bracket, _LBRAC_, 2 14, DEF, 100)
+        COMBO(less_than, _LABRC_, 2 14, DEF, 100)
         COMBO(left_brace, _LCBRC_, 3 15, DEF, 100)
         COMBO(enter, &kp ENTER, 4 16, DEF NAV, 100)
 
@@ -36,7 +36,8 @@
         COMBO(minus_plus, _MINUS_, 6 18, DEF, 100)
         COMBO(parenthesis, _LPARN_, 7 19, DEF NAV NUM, 100)
         COMBO(backspace_word, _BKSPW_, 8 20, DEF NAV NUM, 100)
-        COMBO(less_than, _LABRC_, 9 21, DEF, 100)
+        COMBO(left_bracket, _LBRAC_, 9 21, DEF, 100)
+        
 
         // // Symbols Left Hand
         // COMBO(GRAVE, &kp GRAVE, 13 40, DEF, 40)
