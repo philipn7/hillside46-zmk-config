@@ -16,13 +16,11 @@
                  ╰───────────────╯ ╰────────────────╯
 */
 
-
-
 / {
     combos {
         compatible = "zmk,combos";
         
-        COMBO(space_osshift, &macro_space_osshift, 40 43, DEF, 100)
+        // COMBO(space_osshift, &macro_space_osshift, 40 43, DEF, 100)
 
         // Vertical Left Hand
         COMBO(less_than, _LABRC_, 2 14, DEF, 100)
@@ -37,24 +35,6 @@
         COMBO(parenthesis, _LPARN_, 7 19, DEF NAV NUM, 100)
         COMBO(backspace_word, _BKSPW_, 8 20, DEF NAV NUM, 100)
         COMBO(left_bracket, _LBRAC_, 9 21, DEF, 100)
-        
-
-        // // Symbols Left Hand
-        // COMBO(GRAVE, &kp GRAVE, 13 40, DEF, 40)
-        // COMBO(TILDE, &kp TILDE, 14 40, DEF, 40)
-        // COMBO(DOLLAR, &kp DOLLAR, 15 40, DEF, 40)
-        // COMBO(HASH, &kp HASH, 16 40, DEF, 40)
-        // COMBO(ASTRK, &kp ASTRK, 27 40, DEF, 40)
-        // COMBO(AT, &kp AT, 28 40, DEF, 40)
-        
-        // // Symbols Right Hand
-        // COMBO(EXCL, &kp EXCL, 19 43, DEF, 40)
-        // COMBO(QUESTION, &kp QUESTION, 20 43, DEF, 40)
-        // COMBO(PERCENT, &kp PERCENT, 21 43, DEF, 40)
-        // COMBO(AMPS, &kp AMPS, 22 43, DEF, 40)
-        // COMBO(CARET, &kp CARET, 33 43, DEF, 40)
-        // COMBO(PIPE, &kp PIPE, 34 43, DEF, 40)
-        
 
 /*                          KEY POSITIONS
 
@@ -79,10 +59,13 @@
         COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 100)
 
         // Caps Word
-        COMBO(CapsWord, _CAPWD_, 18 43, DEF, 100)
+        // COMBO(CapsWord, _CAPWD_, 18 43, DEF, 100)
 
         // One Shot NUM
-        COMBO(combo_NUM, &sl 2, 14 15, DEF, 40)
+        COMBO(combo_NUM, &sl NUM, 14 15, DEF, 40)
+
+        // One Shot SYM
+        COMBO(combo_SYM, &sl SYM, 20 21, DEF, 40)
 
         // Hands Down
         COMBO(combo_z, &kp Z, 16 28, DEF, 100)
