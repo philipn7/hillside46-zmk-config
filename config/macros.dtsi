@@ -28,5 +28,29 @@
                 , <&macro_tap osqSHFT>
                 ;
         };
+
+        macro_os_NUM: macro_os_NUM {
+            label = "macro_os_NUM";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap _CANCL_>
+                , <&macro_tap &sl NUM>
+                ;
+        };
+
+        macro_os_SYM: macro_os_SYM {
+            label = "macro_os_SYM";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap _CANCL_>
+                , <&macro_tap &sl SYM>
+                ;
+        };
     };
 };
