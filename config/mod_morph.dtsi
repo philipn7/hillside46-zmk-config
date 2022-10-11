@@ -1,12 +1,12 @@
-#define MOD_MORPH_MASKED(NAME, KEY, MOD_KEY) \
-  mm_##NAME: mm_##NAME { \
-    compatible = "zmk,behavior-mod-morph"; \
-    label = #NAME; \
-    #binding-cells = <0>; \
-    bindings = <&kp KEY>, <&kp MOD_KEY>; \
-    mods = <(MOD_LSFT|MOD_RSFT)>; \
-    masked-mods = <(MOD_LSFT|MOD_RSFT)>; \
-  };
+// #define MOD_MORPH_MASKED(NAME, KEY, MOD_KEY) \
+//   mm_##NAME: mm_##NAME { \
+//     compatible = "zmk,behavior-mod-morph"; \
+//     label = #NAME; \
+//     #binding-cells = <0>; \
+//     bindings = <&kp KEY>, <&kp MOD_KEY>; \
+//     mods = <(MOD_LSFT|MOD_RSFT)>; \
+//     masked-mods = <(MOD_LSFT|MOD_RSFT)>; \
+//   };
 
 #define MOD_MORPH(NAME, KEY, MOD_KEY) \
   mm_##NAME: mm_##NAME { \
@@ -30,11 +30,11 @@
 / {
     behaviors {
       // Parens an Brackets
-      MOD_MORPH_MASKED(brackets, LEFT_BRACKET, RIGHT_BRACKET)
+      MOD_MORPH(brackets, LEFT_BRACKET, RIGHT_BRACKET)
       MOD_MORPH(braces, LEFT_BRACE, RIGHT_BRACE)
       MOD_MORPH(lt_gt, LESS_THAN, GREATER_THAN)
       MOD_MORPH(parens, LEFT_PARENTHESIS, RIGHT_PARENTHESIS)
-      MOD_MORPH_MASKED(slashes, SLASH, BACKSLASH)
+      MOD_MORPH(slashes, SLASH, BACKSLASH)
 
       // Symbols
       MOD_MORPH(minus_plus, MINUS, PLUS)
