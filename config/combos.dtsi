@@ -26,6 +26,7 @@
         COMBO(less_than, _LABRC_, 2 14, DEF, 100)
         COMBO(left_brace, _LCBRC_, 3 15, DEF, 100)
         COMBO(enter, &kp ENTER, 4 16, DEF NAV, 100)
+        COMBO(enter1, &kp ENTER, 5 17, DEF NAV, 100)
 
         COMBO(backspace_left, &kp BACKSPACE, 1 14, DEF NAV NUM, 100)
         COMBO(delete, __DEL__, 1 2, DEF NAV, 100)
