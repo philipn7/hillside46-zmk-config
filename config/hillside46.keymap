@@ -90,8 +90,8 @@
       bindings = <
         __TAB__  ___W___  ___F___  ___M___  ___P___  ___V___                                      _SLASH_  __DOT__  _BKSPC_  _SQUOT_  ___K___  _UNDRS_
         ESC_CTL  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  SCN_SYM
-        XXXXXXX  _X_SYS_  ___C___  ___L___  ___D___  ___G___  XXXXXXX                    XXXXXXX  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  XXXXXXX
-                                            XXXXXXX  __SYM__  SPC_NAV  XXXXXXX  XXXXXXX  osqSHFT  os_CTRL  XXXXXXX
+        os_ALT_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
+                                            XXXXXXX  __SYM__  SPC_NAV  os_CTRL  _CANCL_  osqSHFT  os_CTRL  _______
       >;
     };
 
@@ -100,7 +100,7 @@
       bindings = <
         _______  _LSHFT_  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
         _LGUI__  _LCTRL_  _LEFT__  _DOWN__  _RIGHT_  os_GUI_                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
-        XXXXXXX  _LALT__  os_ALT_  os_CTRL  os_SHFT  _______  XXXXXXX                    XXXXXXX  _CAPSL_  ___1___  ___2___  ___3___  _______  XXXXXXX    
+        XXXXXXX  _LALT__  os_ALT_  os_CTRL  os_SHFT  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
                                             XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _CANCL_  _CAPWD_  XXXXXXX               
       >;
     };
@@ -121,7 +121,7 @@
         _BTCLR_  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
         _______  _______  _______  _______  _______  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  _______
         XXXXXXX  _______  _______  _______  _______  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
-                                            XXXXXXX  _CANCL_  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
+                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
       >;
     };
 
