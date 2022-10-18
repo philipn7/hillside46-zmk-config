@@ -32,6 +32,7 @@
 #define _ESCALT &mt LEFT_ALT ESCAPE
 #define ESC_SYM &lt SYM ESCAPE
 #define ESC_CTL &mt LEFT_CONTROL ESCAPE
+#define ESC_SFT &mt LEFT_SHIFT ESCAPE
 #define SCN_SYM &lt SYM SEMICOLON
 
 /*
