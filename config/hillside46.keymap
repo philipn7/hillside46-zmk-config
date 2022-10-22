@@ -88,20 +88,20 @@
     base_layer {
       label = "DEF";
       bindings = <
-        __TAB__  ___W___  ___F___  ___M___  ___P___  ___V___                                      _SLASH_  __DOT__  _BKSPC_  _SQUOT_  ___K___  _UNDRS_
+        __TAB__  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SQUOT_  ___K___  _UNDRS_
         ESC_SFT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  _SCOLN_
-        os_ALT_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
-                                            XXXXXXX  __SYM__  SPC_NAV  os_CTRL  _CANCL_  osqSHFT  os_CTRL  _______
+        _______  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
+                                            XXXXXXX  __SYM__  SPC_NAV  os_CTRL  _CANCL_  os_SHFT  os_CTRL  os_ALT_
       >;
     };
 
     nav_layer {
       label = "NAV";
       bindings = <
-        _______  _LSHFT_  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
-        _LGUI__  _LCTRL_  _LEFT__  _DOWN__  _RIGHT_  os_GUI_                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
-        XXXXXXX  _LALT__  os_ALT_  os_CTRL  os_SHFT  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
-                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _CANCL_  _CAPWD_  XXXXXXX               
+        _______  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
+        _______  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _ENTER_                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
+        XXXXXXX  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
+                                            XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_            
       >;
     };
 
@@ -111,27 +111,27 @@
         _______  _______  _______  _______  _______  _______                                      _______  ___7___  ___8___  ___9___  _______  _______
         _______  _______  _______  _______  _______  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______
         XXXXXXX  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX
-                                            XXXXXXX  _______  _SPACE_  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
+                                            XXXXXXX  _______  _SPACE_  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                
       >;
     };
 
     sys_layer {
       label = "SYS";
       bindings = <
-        _BTCLR_  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
-        _______  _______  _______  _______  _______  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  _______
+        _______  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
+        _BTCLR_  _______  _______  _______  _______  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  _______
         XXXXXXX  _______  _______  _______  _______  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
-                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
+                                            XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                
       >;
     };
 
     sym_layer {
       label = "SYM";
       bindings = <
-        _______  _LBRAC_  _RBRAC_  _LCBRC_  _RCBRC_  _______                                      _PLUS__  _LPARN_  _RPARN_  _LABRC_  _RABRC_  _______
+        _______  _______  _LBRAC_  _LCBRC_  _LPARN_  _LABRC_                                      _RABRC_  _RPARN_  _RCBRC_  _RBRAC_  _______  _______
         _______  _TILDE_  _GRAVE_  _DOLLR_  _HASH__  _______                                      _MINUS_  _EXCLM_  _QUEST_  _AMPRS_  _PERCT_  _______
         XXXXXXX  _______  _______  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _CARET_  _PIPE__  _______  _______  XXXXXXX
-                                            XXXXXXX  _______  _______  XXXXXXX  XXXXXXX  _______  _______  XXXXXXX                  
+                                            XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                 
       >;
     };
 

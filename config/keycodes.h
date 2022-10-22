@@ -95,8 +95,8 @@
 #define _LABRC_ &mm_lt_gt
 #define _RABRC_ &kp GREATER_THAN
 
-#define __DOT__ &kp DOT
-#define _COMMA_ &kp COMMA
+#define __DOT__ &mm_period_slash
+#define _COMMA_ &mm_comma_slash
 #define _SQUOT_ &kp SINGLE_QUOTE
 #define _DQUOT_ &kp DOUBLE_QUOTES
 #define _COLON_ &kp COLON
@@ -134,6 +134,8 @@
 #define __ESC__ &kp ESCAPE
 #define __END__ &kp END
 #define _HOME__ &kp HOME
+#define _PGUP__ &kp HOME
+#define _PGDN__ &kp END
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL

@@ -19,23 +19,18 @@
 / {
     combos {
         compatible = "zmk,combos";
-        
-        // COMBO(space_osshift, &macro_space_osshift, 40 43, DEF, 100)
 
         // Vertical Left Hand
-        COMBO(less_than, _LABRC_, 2 14, DEF, 100)
-        COMBO(left_brace, _LCBRC_, 3 15, DEF, 100)
-        COMBO(enter, &kp ENTER, 4 16, DEF NAV, 100)
-        COMBO(enter1, &kp ENTER, 5 17, DEF NAV, 100)
+        COMBO(left_bracket, &kp LBKT, 2 14, DEF, 40)
+        COMBO(left_brace, &kp LBRC, 3 15, DEF, 40)
+        COMBO(left_paren, &kp LPAR, 4 16, DEF NAV, 40)
+        COMBO(less_than, &kp LT, 5 17, DEF NAV, 40)
 
-        COMBO(backspace_left, &kp BACKSPACE, 1 14, DEF NAV NUM, 100)
-        COMBO(delete, __DEL__, 1 2, DEF NAV, 100)
-        
         // Vertical Right
-        COMBO(minus_plus, _MINUS_, 6 18, DEF, 100)
-        COMBO(parenthesis, _LPARN_, 7 19, DEF NAV NUM, 100)
-        COMBO(backspace_word, _BKSPW_, 8 20, DEF NAV NUM, 100)
-        COMBO(left_bracket, _LBRAC_, 9 21, DEF, 100)
+        COMBO(greater_than, &kp GT, 6 18, DEF, 40)
+        COMBO(right_paren, &kp RPAR, 7 19, DEF NAV NUM, 40)
+        COMBO(right_brace, &kp RBRC, 8 20, DEF NAV NUM, 40)
+        COMBO(right_bracket, &kp RBKT, 9 21, DEF, 40)
 
 /*                          KEY POSITIONS
 
@@ -54,10 +49,10 @@
         COMBO(cut, WIN_CUT, 26 28, DEF, 40)
         COMBO(paste, WIN_PASTE, 27 28, DEF, 40)
         COMBO(select_all, WIN_SELECT_ALL, 25 28, DEF, 40)
-        COMBO(save, WIN_SAVE, 2 3, DEF, 50)
+        COMBO(save, WIN_SAVE, 2 3, DEF, 40)
 
         // VSCode - Delete Line 
-        COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 100)
+        COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 40)
 
         // Caps Word
         // COMBO(CapsWord, _CAPWD_, 18 43, DEF, 100)
@@ -69,11 +64,7 @@
         COMBO(combo_SYM, &macro_os_SYM, 20 21, DEF, 40)
 
         // Hands Down
-        COMBO(combo_z, &kp Z, 16 28, DEF, 100)
-        COMBO(combo_q, &kp Q, 19 33, DEF, 100)
-
-        // RESET and BOOTLOADER
-        COMBO(combo_reset_left, &reset, 0 12, DEF, 60)
-        COMBO(combo_reset_right, &reset, 11 23, DEF, 60)
+        COMBO(combo_z, &kp Z, 16 28, DEF, 60)
+        COMBO(combo_q, &kp Q, 19 33, DEF, 60)
     };
 };
