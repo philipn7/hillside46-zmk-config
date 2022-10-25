@@ -20,7 +20,7 @@
 };
 &sl {
     // One Shot Layer
-    release-after-ms = <1000>;
+    release-after-ms = <3000>;
 };
 
 / {
