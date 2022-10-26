@@ -52,5 +52,29 @@
                 , <&macro_tap &sl SYM>
                 ;
         };
+
+        macro_left_brac: macro_left_brac {
+            label = "macro_left_brac";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap _CANCL_>
+                , <&macro_tap &kp LBKT>
+                ;
+        };
+
+        macro_right_brac: macro_right_brac {
+            label = "macro_right_brac";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap _CANCL_>
+                , <&macro_tap &kp RBKT>
+                ;
+        };
     };
 };

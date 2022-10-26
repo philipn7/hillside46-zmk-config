@@ -21,7 +21,7 @@
         compatible = "zmk,combos";
 
         // Vertical Left Hand
-        COMBO(left_bracket, &kp LBKT, 2 14, DEF, 40)
+        COMBO(left_bracket, &macro_left_brac, 2 14, DEF, 40)
         COMBO(left_brace, &kp LBRC, 3 15, DEF, 40)
         COMBO(left_paren, &kp LPAR, 4 16, DEF NAV, 40)
         COMBO(less_than, &kp LT, 5 17, DEF NAV, 40)
@@ -30,7 +30,7 @@
         COMBO(greater_than, &kp GT, 6 18, DEF, 40)
         COMBO(right_paren, &kp RPAR, 7 19, DEF NAV NUM, 40)
         COMBO(right_brace, &kp RBRC, 8 20, DEF NAV NUM, 40)
-        COMBO(right_bracket, &kp RBKT, 9 21, DEF, 40)
+        COMBO(right_bracket, &macro_right_brac, 9 21, DEF, 40)
 
 /*                          KEY POSITIONS
 
