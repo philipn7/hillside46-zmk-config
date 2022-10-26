@@ -60,7 +60,7 @@
             tap-ms = <0>;
             #binding-cells = <0>;
             bindings
-                = <&macro_tap _CANCL_>
+                = <&macro_release &kp LSHFT>
                 , <&macro_tap &kp LBKT>
                 ;
         };
@@ -72,7 +72,7 @@
             tap-ms = <0>;
             #binding-cells = <0>;
             bindings
-                = <&macro_tap _CANCL_>
+                = <&macro_release &kp LSHFT>
                 , <&macro_tap &kp RBKT>
                 ;
         };
