@@ -90,7 +90,7 @@
       bindings = <
         __TAB__  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SQUOT_  ___K___  _UNDRS_
         ESC_SFT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  _SCOLN_
-        _______  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
+        os_ALT_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
                                             XXXXXXX  __SYM__  SPC_NAV  os_CTRL  _CANCL_  osqSHFT  os_CTRL  os_ALT_
       >;
     };
@@ -100,7 +100,7 @@
       bindings = <
         _______  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
         _______  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _ENTER_                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
-        XXXXXXX  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
+        os_ALT_  _______  _______  _______  _______  _______  os_GUI_                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
                                             XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_            
       >;
     };
