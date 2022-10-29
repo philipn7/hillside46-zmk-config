@@ -93,7 +93,7 @@
         os_ALT_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
                                             XXXXXXX  __SYM__  SPC_NAV  os_CTRL  _CANCL_  osqSHFT  os_CTRL  os_ALT_
       >;
-      sensor-bindings = <&inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB)) &inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB))>;
+      sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
     };
 
     nav_layer {
@@ -104,7 +104,6 @@
         os_ALT_  _______  _______  _______  _______  _______  os_GUI_                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
                                             XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_            
       >;
-      sensor-bindings = <&inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB)) &inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB))>;
     };
 
     num_layer {
@@ -115,7 +114,6 @@
         XXXXXXX  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX
                                             XXXXXXX  _______  _SPACE_  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                
       >;
-      sensor-bindings = <&inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB)) &inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB))>;
     };
 
     sys_layer {
@@ -126,7 +124,6 @@
         XXXXXXX  _______  _______  _______  _______  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
                                             XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                
       >;
-      sensor-bindings = <&inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB)) &inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB))>;
     };
 
     sym_layer {
@@ -137,7 +134,6 @@
         XXXXXXX  _______  _______  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _CARET_  _PIPE__  _______  _______  XXXXXXX
                                             XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                 
       >;
-      sensor-bindings = <&inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB)) &inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB))>;
     };
 
   };
