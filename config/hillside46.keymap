@@ -93,7 +93,7 @@
         os_ALT_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPSL_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPWD_
                                             XXXXXXX  __SYM__  SPC_NAV  os_CTRL  _CANCL_  osqSHFT  os_CTRL  os_ALT_
       >;
-      sensor-bindings = <&inc_dec_kp &kp LC(TAB) LC(LS(TAB))>;
+      sensor-bindings = <&inc_dec_kp &kp LC(TAB) &kp LC(LS(TAB))>;
     };
 
     nav_layer {
