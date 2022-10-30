@@ -76,31 +76,5 @@
                 , <&macro_tap &kp RBKT>
                 ;
         };
-
-        macro_vim_scroll_dn: macro_vim_scroll_dn {
-            label = "macro_vim_scroll_dn";
-            compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap _CANCL_>
-                , <&macro_tap &kp N3>
-                , <&macro_tap &kp LC(E)>
-                ;
-        };
-
-        macro_vim_scroll_up: macro_vim_scroll_up {
-            label = "macro_vim_scroll_up";
-            compatible = "zmk,behavior-macro";
-            wait-ms = <0>;
-            tap-ms = <0>;
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap _CANCL_>
-                , <&macro_tap &kp N3>
-                , <&macro_tap &kp LC(Y)>
-                ;
-        };
     };
 };
