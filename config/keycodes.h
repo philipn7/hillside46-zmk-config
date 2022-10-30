@@ -170,12 +170,12 @@
 #define _BT_02_ &bt BT_SEL 2
 
 
-#define _TAB_1_ &kp LC(LA(___1___))
-#define _TAB_2_ &kp LC(LA(___2___))
-#define _TAB_3_ &kp LC(LA(___3___))
-#define _TAB_4_ &kp LC(LA(___4___))
-#define _TAB_5_ &kp LC(LA(___5___))
-#define _TAB_6_ &kp LC(LA(___6___))
+#define _TAB_1_ &kp LC(LA(N1))
+#define _TAB_2_ &kp LC(LA(N2))
+#define _TAB_3_ &kp LC(LA(N3))
+#define _TAB_4_ &kp LC(LA(N4))
+#define _TAB_5_ &kp LC(LA(N5))
+#define _TAB_6_ &kp LC(LA(N6))
 
 
 //#define MAC_PASTE_MATCH LSFT(LOPT(LCMD(KC_C)))
