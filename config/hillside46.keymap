@@ -120,8 +120,8 @@
       label = "SYS";
       bindings = <
         _______  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
-        _BTCLR_  _______  _______  _______  _______  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  _______
-        XXXXXXX  _______  _______  _______  _______  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
+        _BTCLR_  _______  _TAB_1_  _TAB_2_  _TAB_3_  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  _______
+        XXXXXXX  _______  _TAB_4_  _TAB_5_  _TAB_6_  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
                                             XXXXXXX  _______  _______  XXXXXXX  _CANCL_  os_SHFT  os_CTRL  os_ALT_                
       >;
     };
