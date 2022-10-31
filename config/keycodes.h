@@ -129,7 +129,7 @@
 #define _SPACE_ &kp SPACE
 #define __TAB__ &kp TAB
 #define _ENTER_ &kp ENTER
-#define _BKSPC_ &mm_bksp_delWord
+#define _BKSPC_ &kp BACKSPACE
 #define _BKSPW_ &kp LC(BACKSPACE)
 #define __DEL__ &kp DELETE
 #define __ESC__ &kp ESCAPE
