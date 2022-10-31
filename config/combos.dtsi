@@ -32,6 +32,9 @@
         COMBO(right_brace, &kp RBRC, 8 20, DEF NAV NUM, 40)
         COMBO(right_bracket, &macro_right_brac, 9 21, DEF, 40)
 
+        // Ctrl-backspace
+        COMBO(delWord, &kp LC(BACKSPACE), 8 9, DEF NAV NUM, 40)
+
 /*                          KEY POSITIONS
 
   ╭────────────────────────╮              ╭────────────────────────╮
