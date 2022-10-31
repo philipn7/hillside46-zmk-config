@@ -32,7 +32,7 @@
         COMBO(right_brace, &kp RBRC, 8 20, DEF NAV NUM, 40)
         COMBO(right_bracket, &macro_right_brac, 9 21, DEF, 40)
 
-        COMBO(del_word, LC(BACKSPACE), 8 9, DEF NAV NUM, 50)
+        COMBO(del_word, &kp LC(BACKSPACE), 8 9, DEF NAV NUM, 50)
 
 /*                          KEY POSITIONS
 
