@@ -42,7 +42,10 @@
 
       // Symbols
       MOD_MORPH(minus_plus, MINUS, PLUS)
-      MOD_MORPH_MACRO(equals_arrow, EQUAL, macro_equal_arrow)
+      MOD_MORPH_MACRO(equals_arrow, EQUAL, macro_equal_arrow) 
+
+      // Delete Word
+      MOD_MORPH(bksp_delWord, BACKSPACE, LC(BACKSPACE))
     };
 };
 

@@ -32,9 +32,6 @@
         COMBO(right_brace, &kp RBRC, 8 20, DEF NAV NUM, 40)
         COMBO(right_bracket, &macro_right_brac, 9 21, DEF, 40)
 
-        // Ctrl-backspace
-        COMBO(delWord, &kp LC(BACKSPACE), 8 9, DEF NAV NUM, 40)
-
 /*                          KEY POSITIONS
 
   ╭────────────────────────╮              ╭────────────────────────╮
@@ -46,19 +43,16 @@
 */
 
         // Shortcuts
-        COMBO(undo, WIN_UNDO, 25 26, DEF, 40)
-        COMBO(redo, WIN_REDO, 13 25, DEF, 40)
-        COMBO(copy, WIN_COPY, 26 27, DEF, 40)
-        COMBO(cut, WIN_CUT, 26 28, DEF, 40)
-        COMBO(paste, WIN_PASTE, 27 28, DEF, 40)
-        COMBO(select_all, WIN_SELECT_ALL, 25 28, DEF, 40)
-        COMBO(save, WIN_SAVE, 2 3, DEF, 40)
+        COMBO(undo, WIN_UNDO, 25 26, DEF, 35)
+        COMBO(redo, WIN_REDO, 13 25, DEF, 35)
+        COMBO(copy, WIN_COPY, 26 27, DEF, 35)
+        COMBO(cut, WIN_CUT, 26 28, DEF, 35)
+        COMBO(paste, WIN_PASTE, 27 28, DEF, 35)
+        COMBO(select_all, WIN_SELECT_ALL, 25 28, DEF, 35)
+        COMBO(save, WIN_SAVE, 2 3, DEF, 35)
 
         // VSCode - Delete Line 
         COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 40)
-
-        // Caps Word
-        // COMBO(CapsWord, _CAPWD_, 18 43, DEF, 100)
 
         // One Shot NUM
         COMBO(combo_NUM, &macro_os_NUM, 14 15, DEF, 40)
@@ -67,7 +61,7 @@
         COMBO(combo_SYM, &macro_os_SYM, 20 21, DEF, 40)
 
         // Hands Down
-        COMBO(combo_z, &kp Z, 16 28, DEF, 60)
-        COMBO(combo_q, &kp Q, 19 33, DEF, 60)
+        COMBO(combo_z, &kp Z, 16 28, DEF, 40)
+        COMBO(combo_q, &kp Q, 19 33, DEF, 40)
     };
 };

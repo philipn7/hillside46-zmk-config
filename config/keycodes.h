@@ -29,10 +29,11 @@
 
 #define _CAPSL_ &kp CAPSLOCK
 #define _CAPWD_ &caps_word
-#define _ESCALT &mt LEFT_ALT ESCAPE
+#define ESC_ALT &mt LEFT_ALT ESCAPE
 #define ESC_SYM &lt SYM ESCAPE
 #define ESC_CTL &mt LEFT_CONTROL ESCAPE
 #define ESC_SFT &mt LEFT_SHIFT ESCAPE
+#define TAB_ALT &mt LEFT_ALT TAB
 #define SCN_SYM &lt SYM SEMICOLON
 
 /*
@@ -128,7 +129,7 @@
 #define _SPACE_ &kp SPACE
 #define __TAB__ &kp TAB
 #define _ENTER_ &kp ENTER
-#define _BKSPC_ &kp BACKSPACE
+#define _BKSPC_ &mm_bksp_delWord
 #define _BKSPW_ &kp LC(BACKSPACE)
 #define __DEL__ &kp DELETE
 #define __ESC__ &kp ESCAPE
@@ -136,6 +137,7 @@
 #define _HOME__ &kp HOME
 #define _PGUP__ &kp HOME
 #define _PGDN__ &kp END
+#define __INS__ &kp INSERT
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
