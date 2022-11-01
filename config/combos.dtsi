@@ -57,7 +57,7 @@
         COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 40)
 
         // One Shot NUM
-        COMBO(combo_NUM, &macro_os_NUM, 14 15, DEF, 40)
+        // COMBO(combo_NUM, &macro_os_NUM, 14 15, DEF, 40)
 
         // One Shot SYM
         COMBO(combo_SYM, &macro_os_SYM, 20 21, DEF, 40)
