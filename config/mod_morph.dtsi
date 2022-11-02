@@ -37,8 +37,10 @@
       MOD_MORPH(slashes, SLASH, BACKSLASH)
 
       // Comma Period
-      MOD_MORPH(comma_slash, COMMA, BACKSLASH)
-      MOD_MORPH(period_slash, DOT, SLASH)
+      // MOD_MORPH(comma_slash, COMMA, BACKSLASH)
+      // MOD_MORPH(period_slash, DOT, SLASH)
+      MOD_MORPH(comma_question, COMMA, QUESTION)
+      MOD_MORPH(period_exclamation, DOT, EXCLAMATION)
 
       // Symbols
       MOD_MORPH(minus_plus, MINUS, PLUS)

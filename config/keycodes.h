@@ -96,8 +96,8 @@
 #define _LABRC_ &mm_lt_gt
 #define _RABRC_ &kp GREATER_THAN
 
-#define __DOT__ &mm_period_slash
-#define _COMMA_ &mm_comma_slash
+#define __DOT__ &mm_period_exclamation
+#define _COMMA_ &mm_comma_question
 #define _SQUOT_ &kp SINGLE_QUOTE
 #define _DQUOT_ &kp DOUBLE_QUOTES
 #define _COLON_ &kp COLON
