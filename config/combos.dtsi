@@ -63,7 +63,7 @@
         COMBO(combo_SYM, &macro_os_SYM, 21 10, DEF, 50)
 
         // Hands Down
-        COMBO(combo_z, &kp Z, 16 28, DEF, 35)
-        COMBO(combo_q, &kp Q, 19 33, DEF, 35)
+        COMBO(combo_q, &kp Q, 16 28, DEF, 35)
+        COMBO(combo_z, &kp Z, 19 33, DEF, 35)
     };
 };
