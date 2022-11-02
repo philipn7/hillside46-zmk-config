@@ -90,8 +90,8 @@
       bindings = <
         TAB_ALT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SQUOT_  ___K___  _SLASH_
         ESC_SFT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  _SCOLN_
-        os_CTRL  _X_SYS_  ___C___  ___L___  ___D___  ___G___  os_GUI_                    _CAPWD_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPSL_
-                                            XXXXXXX  _CANCL_  SPC_NAV  _ENTER_  __SYM__  osqSHFT  os_CTRL  os_ALT_
+        os_CTRL  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    _CAPWD_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPSL_
+                                            XXXXXXX  os_GUI_  SPC_NAV  _CANCL_  __SYM__  osqSHFT  os_CTRL  os_ALT_
       >;
       sensor-bindings = <&inc_dec_kp LC(Y) LC(E)>;
     };
@@ -101,8 +101,8 @@
       bindings = <
         _LALT__  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
         _LSHFT_  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
-        _LCTRL_  _______  _______  _______  _______  _______  os_GUI_                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
-                                            XXXXXXX  _CANCL_  _______  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_            
+        _LCTRL_  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
+                                            XXXXXXX  os_GUI_  XXXXXXX  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_            
       >;
     };
 
@@ -112,7 +112,7 @@
         _______  _______  _______  _______  _______  _______                                      _______  ___7___  ___8___  ___9___  _______  _______
         _______  _______  _______  _______  _______  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______
         XXXXXXX  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX
-                                            XXXXXXX  _CANCL_  _SPACE_  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_                
+                                            XXXXXXX  os_GUI_  XXXXXXX  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_                
       >;
     };
 
@@ -122,7 +122,7 @@
         _______  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
         _BTCLR_  _______  _TAB_1_  _TAB_2_  _TAB_3_  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  __INS__
         XXXXXXX  _______  _TAB_4_  _TAB_5_  _TAB_6_  _BT_02_  XXXXXXX                    XXXXXXX  __F12__  __F1___  __F2___  __F3___  _______  XXXXXXX
-                                            XXXXXXX  _CANCL_  _______  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_                
+                                            XXXXXXX  os_GUI_  _______  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_                
       >;
     };
 
@@ -132,7 +132,7 @@
         _______  _______  _______  _______  _______  _______                                      _______  _______  _______  _______  _______  _______
         _______  _TILDE_  _GRAVE_  _DOLLR_  _HASH__  _______                                      _______  _AMPRS_  _UNDRS_  _PERCT_  _______  _______
         XXXXXXX  _______  _______  _STAR__  __AT___  _______  XXXXXXX                    XXXXXXX  _______  _PIPE__  _CARET_  _______  _______  XXXXXXX
-                                            XXXXXXX  _CANCL_  _______  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_                 
+                                            XXXXXXX  os_GUI_  _______  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_                 
       >;
     };
 
