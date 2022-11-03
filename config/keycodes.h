@@ -20,7 +20,7 @@
 // Thumbs
 #define _T_NAV_ &lt NAV T
 #define _T_SHFT &bht LEFT_SHIFT T
-#define SPC_NAV &lt NAV SPACE
+#define SPC_NAV &lt &macro_NAV SPACE
 #define SPC_SFT &bht LEFT_SHIFT SPACE
 #define _X_SYS_ &lt SYS X
 #define osSHcan &td_shift_cancel

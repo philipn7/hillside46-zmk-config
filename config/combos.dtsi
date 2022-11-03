@@ -23,16 +23,16 @@
         // Vertical Left Hand
         COMBO(left_bracket, &macro_left_brac, 2 14, DEF, 40)
         COMBO(left_brace, &kp LBRC, 3 15, DEF, 40)
-        COMBO(left_paren, &kp LPAR, 4 16, DEF NAV, 40)
-        COMBO(less_than, &kp LT, 5 17, DEF NAV, 40)
+        COMBO(left_paren, &kp LPAR, 4 16, DEF, 40)
+        COMBO(less_than, &kp LT, 5 17, DEF, 40)
 
         // Vertical Right
         COMBO(greater_than, &kp GT, 6 18, DEF, 40)
-        COMBO(right_paren, &kp RPAR, 7 19, DEF NAV NUM, 40)
-        COMBO(right_brace, &kp RBRC, 8 20, DEF NAV NUM, 40)
+        COMBO(right_paren, &kp RPAR, 7 19, DEF, 40)
+        COMBO(right_brace, &kp RBRC, 8 20, DEF, 40)
         COMBO(right_bracket, &macro_right_brac, 9 21, DEF, 40)
 
-        COMBO(del_word, &kp LC(BACKSPACE), 8 9, DEF NAV NUM, 50)
+        COMBO(del_word, &kp LC(BACKSPACE), 8 9, DEF, 50)
 
 /*                          KEY POSITIONS
 
@@ -60,7 +60,7 @@
         COMBO(combo_NUM, &macro_os_NUM, 1 14, DEF, 50)
 
         // One Shot SYM
-        COMBO(combo_SYM, &macro_os_SYM, 21 10, DEF, 50)
+        // COMBO(combo_SYM, &macro_os_SYM, 21 10, DEF, 50)
 
         // Hands Down
         COMBO(combo_q, &kp Q, 16 28, DEF, 35)
