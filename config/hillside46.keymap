@@ -88,9 +88,9 @@
     base_layer {
       label = "DEF";
       bindings = <
-        TAB_ALT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SCOLN_  _SQUOT_  _SLASH_
-        ESC_SFT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  ___J___
-        os_CTRL  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    _CAPWD_  _EQUAL_  ___U___  ___O___  ___Y___  ___K___  _CAPSL_
+        TAB_ALT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _SQUOT_  _BKSPC_  ___K___  _SLASH_
+        ESC_SFT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  _SCOLN_
+        os_CTRL  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    _CAPWD_  _EQUAL_  ___U___  ___O___  ___Y___  ___J___  _CAPSL_
                                             XXXXXXX  os_GUI_  SPC_NAV  _CANCL_  __SYM__  osqSHFT  os_CTRL  os_ALT_
       >;
       sensor-bindings = <&inc_dec_kp LC(Y) LC(E)>;
@@ -99,7 +99,7 @@
     nav_layer {
       label = "NAV";
       bindings = <
-        _LALT__  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _______    
+        _LALT__  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _SQUOT_  ___K___    
         _LSHFT_  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
         _LCTRL_  _______  _______  _______  _______  _______  XXXXXXX                    XXXXXXX  _______  ___1___  ___2___  ___3___  _______  XXXXXXX    
                                             XXXXXXX  os_GUI_  XXXXXXX  XXXXXXX  _______  os_SHFT  os_CTRL  os_ALT_            
