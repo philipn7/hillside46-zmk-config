@@ -180,6 +180,7 @@
 #define _TAB_5_ &kp LC(LA(N5))
 #define _TAB_6_ &kp LC(LA(N6))
 
+// Windows next/prev Virtual desktops
 #define _DSKT_N &kp LC(LG(RIGHT_ARROW))
 #define _DSKT_P &kp LC(LG(LEFT_ARROW))
 
