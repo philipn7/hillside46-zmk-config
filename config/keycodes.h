@@ -180,6 +180,9 @@
 #define _TAB_5_ &kp LC(LA(N5))
 #define _TAB_6_ &kp LC(LA(N6))
 
+#define _DSKT_N &kp LC(LG(RIGHT_ARROW))
+#define _DSKT_P &kp LC(LG(LEFT_ARROW))
+
 
 //#define MAC_PASTE_MATCH LSFT(LOPT(LCMD(KC_C)))
 
