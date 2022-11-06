@@ -25,7 +25,7 @@
 #define _X_SYS_ &lt SYS X
 #define osSHcan &td_shift_cancel
 #define _CANCL_ &kp F24
-#define __SYM__ &sl SYM 
+#define os_SYM_ &sl SYM 
 
 #define _CAPSL_ &kp CAPSLOCK
 #define _CAPWD_ &caps_word
