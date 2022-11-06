@@ -102,7 +102,7 @@
         _LALT__  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _CAPWD_    
         _LSHFT_  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
         _LCTRL_  _______  _______  _______  _______  _______  _______                    _______  _______  ___1___  ___2___  ___3___  _______  _______    
-                                            XXXXXXX  os_GUI_  _______  _______  _______  _______  _______  _______            
+                                            XXXXXXX  _______  _______  _______  _______  _______  _______  _______            
       >;
     };
 
@@ -122,16 +122,16 @@
         _______  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
         _BTCLR_  _______  _TAB_1_  _TAB_2_  _TAB_3_  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  __INS__
         _______  _______  _TAB_4_  _TAB_5_  _TAB_6_  _BT_02_  _______                    _______  __F12__  __F1___  __F2___  __F3___  _______  _______
-                                            XXXXXXX  os_GUI_  _______  _______  _______  _______  _______  _______                
+                                            XXXXXXX  _______  _______  _______  _______  _______  _______  _______                
       >;
     };
 
     sym_layer {
       label = "SYM";
       bindings = <
-        _LALT__  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv                                      vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv
-        _LSHFT_  vvvvvvv  _STAR__  _DOLLR_  _HASH__  vvvvvvv                                      vvvvvvv  _AMPRS_  _PIPE__  _PERCT_  vvvvvvv  vvvvvvv
-        _LCTRL_  vvvvvvv  vvvvvvv  _TILDE_  __AT___  vvvvvvv  vvvvvvv                    vvvvvvv  vvvvvvv  _GRAVE_  _CARET_  vvvvvvv  vvvvvvv  vvvvvvv
+        vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv                                      vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv
+        vvvvvvv  vvvvvvv  _STAR__  _DOLLR_  _HASH__  vvvvvvv                                      vvvvvvv  _AMPRS_  _PIPE__  _PERCT_  vvvvvvv  vvvvvvv
+        vvvvvvv  vvvvvvv  vvvvvvv  _TILDE_  __AT___  vvvvvvv  vvvvvvv                    vvvvvvv  vvvvvvv  _GRAVE_  _CARET_  vvvvvvv  vvvvvvv  vvvvvvv
                                             XXXXXXX  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv                 
       >;
     };
