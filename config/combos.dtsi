@@ -46,15 +46,15 @@
 
         // Shortcuts
         COMBO(undo, WIN_UNDO, 25 26, DEF, 30)
-        COMBO(redo, WIN_REDO, 13 25, DEF, 30)
+        //COMBO(redo, WIN_REDO, 13 25, DEF, 30)
         COMBO(copy, WIN_COPY, 26 27, DEF, 30)
         COMBO(cut, WIN_CUT, 26 28, DEF, 30)
         COMBO(paste, WIN_PASTE, 27 28, DEF, 30)
         COMBO(select_all, WIN_SELECT_ALL, 25 28, DEF, 30)
-        COMBO(save, WIN_SAVE, 2 3, DEF, 30)
+        COMBO(save, WIN_SAVE, 2 3, DEF, 35)
 
         // VSCode - Delete Line 
-        COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 40)
+        COMBO(delLine, &kp LC(LS(K)), 1 4, DEF, 45)
 
         // One Shot NUM
         COMBO(combo_NUM, &macro_os_NUM, 13 16, DEF, 40)
