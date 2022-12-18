@@ -23,7 +23,6 @@
 #define SPC_NAV &lt NAV SPACE
 #define SPC_SFT &bht LEFT_SHIFT SPACE
 #define _X_SYS_ &lt SYS X
-#define osSHcan &td_shift_cancel
 #define _CANCL_ &kp K_CANCEL
 #define vvvvvvv &kp K_CANCEL
 #define os_SYM_ &sl SYM 
@@ -35,6 +34,7 @@
 #define ESC_CTL &mt LEFT_CONTROL ESCAPE
 #define ESC_SFT &mt LEFT_SHIFT ESCAPE
 #define TAB_ALT &mt LEFT_ALT TAB
+#define TAB_SFT &mt LEFT_SHIFT TAB
 #define SCN_SYM &lt SYM SEMICOLON
 
 /*

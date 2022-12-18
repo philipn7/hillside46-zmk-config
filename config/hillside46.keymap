@@ -35,14 +35,6 @@
         quick-release;
       };
 
-      td_shift_cancel: td_shift_cancel {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_SHIFT_CANCEL";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <osqSHFT>, <_CANCL_>;
-        };
-
       bht: balanced_hold_tap {
           compatible = "zmk,behavior-hold-tap";
           label = "balanced_hold_tap";
@@ -52,31 +44,6 @@
           flavor = "balanced";
           bindings = <&kp>, <&kp>;
       };
-
-      /*
-      // Home Row Mods
-      lh_pht: left_hand_positional_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LEFT_POSITIONAL_HOLD_TAP";
-            #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
-            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
-            quick-tap-ms = <200>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29>;    // <---[[right-hand keys]]
-      };
-      rh_pht: right_hand_positional_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "RIGHT_POSITIONAL_HOLD_TAP";
-            #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
-            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
-            quick-tap-ms = <200>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24>;    // <---[[left-hand keys]]
-      };
-      
-      */
     };
 };
 
@@ -89,10 +56,10 @@
     base_layer {
       label = "DEF";
       bindings = <
-        TAB_ALT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SCOLN_  ___K___  _SLASH_
-        ESC_SFT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  ___J___
-        os_CTRL  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    os_CTRL  _EQUAL_  ___U___  ___O___  ___Y___  _SQUOT_  _UNDRS_
-                                            XXXXXXX  os_GUI_  SPC_NAV  _CANCL_  _CAPWD_  osqSHFT  os_SYM_  os_ALT_
+        TAB_SFT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SCOLN_  ___K___  _SLASH_
+        ESC_ALT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  ___J___
+        _LCTRL_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    os_CTRL  _EQUAL_  ___U___  ___O___  ___Y___  _SQUOT_  _UNDRS_
+                                            XXXXXXX  os_GUI_  SPC_NAV  _CANCL_  os_ALT_  osqSHFT  os_SYM_  _CAPWD_
       >;
       sensor-bindings = <&inc_dec_kp LC(Y) LC(E)>;
     };
@@ -100,10 +67,10 @@
     nav_layer {
       label = "NAV";
       bindings = <
-        _LALT__  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _CAPWD_    
-        _LSHFT_  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
+        _LSHFT_  __DEL__  _HOME__  __UP___  __END__  _______                                      _______  ___7___  ___8___  ___9___  _______  _CAPWD_    
+        _LALT__  _BKSPC_  _LEFT__  _DOWN__  _RIGHT_  _______                                      ___0___  ___4___  ___5___  ___6___  _______  _______    
         _LCTRL_  _______  _______  _______  _______  _______  _______                    os_CTRL  _______  ___1___  ___2___  ___3___  _______  _______    
-                                            XXXXXXX  os_GUI_  _______  _______  _______  os_SHFT  _______  os_ALT_            
+                                            XXXXXXX  os_GUI_  _______  _______  os_ALT_  os_SHFT  _______  _CAPWD_            
       >;
     };
 
@@ -122,8 +89,8 @@
       bindings = <
         _______  _______  _______  _______  _______  _BT_00_                                      __F10__  __F7___  __F8___  __F9___  _______  _______
         _BTCLR_  _______  _DSKT_P  _______  _DSKT_N  _BT_01_                                      __F11__  __F4___  __F5___  __F6___  _______  __INS__
-        _______  _______  _TAB_1_  _TAB_2_  _TAB_3_  _BT_02_  _______                    _______  __F12__  __F1___  __F2___  __F3___  _______  _______
-                                            XXXXXXX  _______  _______  _______  _______  _______  _______  _______                
+        _______  _______  _TAB_1_  _TAB_2_  _TAB_3_  _BT_02_  _______                    os_CTRL  __F12__  __F1___  __F2___  __F3___  _______  _______
+                                            XXXXXXX  os_GUI_  _______  _______  os_ALT_  os_SHFT  _______  _______                
       >;
     };
 
@@ -133,7 +100,7 @@
         vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv                                      vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv
         vvvvvvv  vvvvvvv  _STAR__  _DOLLR_  _HASH__  vvvvvvv                                      vvvvvvv  _AMPRS_  _PIPE__  _PERCT_  vvvvvvv  vvvvvvv
         vvvvvvv  vvvvvvv  vvvvvvv  _TILDE_  __AT___  vvvvvvv  vvvvvvv                    os_CTRL  vvvvvvv  _GRAVE_  _CARET_  vvvvvvv  vvvvvvv  vvvvvvv
-                                            XXXXXXX  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  os_ALT_                 
+                                            XXXXXXX  os_GUI_  vvvvvvv  vvvvvvv  os_ALT_  vvvvvvv  vvvvvvv  vvvvvvv                 
       >;
     };
 
