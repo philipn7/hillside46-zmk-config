@@ -97,9 +97,9 @@
     sym_layer {
       label = "SYM";
       bindings = <
-        vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv                                      vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv
-        vvvvvvv  vvvvvvv  _STAR__  _DOLLR_  _HASH__  vvvvvvv                                      vvvvvvv  _AMPRS_  _PIPE__  _PERCT_  vvvvvvv  vvvvvvv
-        vvvvvvv  vvvvvvv  vvvvvvv  _TILDE_  __AT___  vvvvvvv  vvvvvvv                    os_CTRL  vvvvvvv  _GRAVE_  _CARET_  vvvvvvv  vvvvvvv  vvvvvvv
+        _LSHFT_  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv                                      vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv  vvvvvvv
+        _LALT__  vvvvvvv  _STAR__  _DOLLR_  _HASH__  vvvvvvv                                      vvvvvvv  _AMPRS_  _PIPE__  _PERCT_  vvvvvvv  vvvvvvv
+        _LCTRL_  vvvvvvv  vvvvvvv  _TILDE_  __AT___  vvvvvvv  vvvvvvv                    os_CTRL  vvvvvvv  _GRAVE_  _CARET_  vvvvvvv  vvvvvvv  vvvvvvv
                                             XXXXXXX  os_GUI_  vvvvvvv  vvvvvvv  os_ALT_  vvvvvvv  vvvvvvv  vvvvvvv                 
       >;
     };
