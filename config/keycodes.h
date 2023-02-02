@@ -173,12 +173,15 @@
 #define _BT_02_ &bt BT_SEL 2
 
 
-#define _TAB_1_ &kp LC(LA(N1))
-#define _TAB_2_ &kp LC(LA(N2))
-#define _TAB_3_ &kp LC(LA(N3))
-#define _TAB_4_ &kp LC(LA(N4))
-#define _TAB_5_ &kp LC(LA(N5))
-#define _TAB_6_ &kp LC(LA(N6))
+#define _TAB_1_ &kp LC(LS(N1))
+#define _TAB_2_ &kp LC(LS(N2))
+#define _TAB_3_ &kp LC(LS(N3))
+#define _TAB_4_ &kp LC(LS(N4))
+#define _TAB_5_ &kp LC(LS(N5))
+#define _TAB_6_ &kp LC(LS(N6))
+
+#define _TAB_N_ &kp LC(TAB)
+#define _TAB_P_ &kp LC(LS(TAB))
 
 // Windows next/prev Virtual desktops
 #define _DSKT_N &kp LC(LG(RIGHT_ARROW))
