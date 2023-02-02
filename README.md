@@ -29,11 +29,6 @@ To build the firmware:
 - See [Installing The Firmware](https://zmk.dev/docs/user-setup#installing-the-firmware)
   for more details from there.
 
-The actions tab also has builds triggered by earlier changes, 
-  but tracing through those for one with your board may take work,
-  and hosting of the generated files expires over time.
-
-
 *Once* your board works with the default firmware,
   you can modify the keymap.
 Your copies of the default Hillside keymaps are in:
@@ -53,6 +48,6 @@ While RGB is disabled, any RGB control keys
   behave as transparent keys and activate keys on lower layers,
   which can be confusing.
 
-The Hillside shield definition files *should not* need to be modified and are in ./config/boards/shields.
+The Hillside shield definition files should *not* need to be modified and are in ./config/boards/shields.
 
 More information about each keymap is in their readme files.
