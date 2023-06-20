@@ -32,7 +32,8 @@
         COMBO(right_brace, &kp RBRC, 8 20, DEF, 40)
         COMBO(right_bracket, &macro_right_brac, 9 21, DEF, 40)
 
-        COMBO(del_word, &kp LC(BACKSPACE), 8 9, DEF, 50)
+        //COMBO(del_word_win, &kp LC(BACKSPACE), 8 9, DEF, 50)
+        COMBO(del_word_mac, &kp LA(BACKSPACE), 8 9, DEF, 50)
 
 /*                          KEY POSITIONS
 
