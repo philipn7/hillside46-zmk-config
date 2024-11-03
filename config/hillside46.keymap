@@ -53,12 +53,25 @@
     
     compatible = "zmk,keymap";
 
+    // Hands Down Neu
+    // base_layer {
+    //   label = "DEF";
+    //   bindings = <
+    //     TAB_SFT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SCOLN_  ___K___  _SLASH_
+    //     ESC_ALT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  ___J___
+    //     _LCTRL_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    os_CTRL  _EQUAL_  ___U___  ___O___  ___Y___  _SQUOT_  _UNDRS_
+    //                                         XXXXXXX  os_GUI_  SPC_NAV  _CANCL_  os_ALT_  osqSHFT  os_SYM_  _CAPWD_
+    //   >;
+    //   sensor-bindings = <&inc_dec_kp LC(Y) LC(E)>;
+    // };
+
+    // Gallium V1
     base_layer {
       label = "DEF";
       bindings = <
-        TAB_SFT  ___W___  ___F___  ___M___  ___P___  ___V___                                      _MINUS_  __DOT__  _BKSPC_  _SCOLN_  ___K___  _SLASH_
-        ESC_ALT  ___R___  ___S___  ___N___  ___T___  ___B___                                      _COMMA_  ___A___  ___E___  ___I___  ___H___  ___J___
-        _LCTRL_  _X_SYS_  ___C___  ___L___  ___D___  ___G___  _ENTER_                    os_CTRL  _EQUAL_  ___U___  ___O___  ___Y___  _SQUOT_  _UNDRS_
+        TAB_SFT  ___B___  ___L___  ___D___  ___W___  ___V___                                      ___J___  ___Y___  ___O___  ___U___  _COMMA_  _BKSPC_
+        ESC_ALT  ___N___  ___R___  ___T___  ___S___  ___G___                                      ___P___  ___H___  ___A___  ___E___  ___I___  _SCOLN_
+        _LCTRL_  ___Q___  _X_SYS_  ___M___  ___C___  ___Z___  _ENTER_                    os_CTRL  ___K___  ___F___  _SQUOT_  _SLASH_  __DOT__  _UNDRS_
                                             XXXXXXX  os_GUI_  SPC_NAV  _CANCL_  os_ALT_  osqSHFT  os_SYM_  _CAPWD_
       >;
       sensor-bindings = <&inc_dec_kp LC(Y) LC(E)>;
